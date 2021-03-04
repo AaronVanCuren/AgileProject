@@ -59,12 +59,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AgileProject_WebAPI\AgileProject_WebAPI.csproj">
-      <Project>{7005c083-712b-4bad-a152-64b1bead9670}</Project>
-      <Name>AgileProject_WebAPI</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
