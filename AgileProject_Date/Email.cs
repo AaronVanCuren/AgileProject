@@ -8,5 +8,6 @@ namespace AgileProject_Date
 {
     public class Email
     {
+
     }
 }
