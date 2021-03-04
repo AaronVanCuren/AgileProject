@@ -4,7 +4,6 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using AgileProject_WebAPI.Models;
-using AgileProject_Data;
 
 namespace AgileProject_WebAPI
 {
