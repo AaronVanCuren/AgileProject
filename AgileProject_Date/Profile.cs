@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgileProject_Date
+namespace AgileProject_Data
 {
     public class Profile
     {

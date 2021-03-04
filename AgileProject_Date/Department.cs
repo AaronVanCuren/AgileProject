@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgileProject_Date
+namespace AgileProject_Data
 {
     public class Department
     {
@@ -17,6 +17,6 @@ namespace AgileProject_Date
         //-- Future Update: Turn this into an enum (standardize the naming convention of departments)
         public string DeptName { get; set; }
         public virtual List<Profile> Profiles { get; set; }
-        
+
     }
 }
