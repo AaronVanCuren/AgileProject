@@ -16,7 +16,6 @@ using Microsoft.Owin.Security.OAuth;
 using AgileProject_WebAPI.Models;
 using AgileProject_WebAPI.Providers;
 using AgileProject_WebAPI.Results;
-using AgileProject_Data;
 
 namespace AgileProject_WebAPI.Controllers
 {
