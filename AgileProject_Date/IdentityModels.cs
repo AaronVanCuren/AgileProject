@@ -3,6 +3,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using AgileProject_Date;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -26,6 +27,12 @@ namespace AgileProject_Data
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+
+        public DbSet<Email> Emails { get; set; }
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
+
 
         public static ApplicationDbContext Create()
         {
